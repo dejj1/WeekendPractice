@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        float: top;
+    }
+</style>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+           <div><label for="salutation">Salutation</label></div>
+            <select name="" id="salutation">
+                <option value="--None--">--None--</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+            </select><br>
+            <br>
+            <br>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName"><br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName"><br>
+            <br>
+
+            <label for="gender">Gender:</label>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br>
+            <br>
+
+            <label for="DateOfBirth">Date of Birth:</label>
+            <input type="date" id="DateOfBirth"><br>
+            <br>
+
+
+            <div><label for="address">Address:</label></div>
+            <textarea name="address" id="address" cols="60" rows="8"></textarea><br>
+            <br>
+            <button>Submit</button>
+
+
+
+
+        </fieldset>
+    </form>
+
+
+    <!--Lists-->
+    <h2>UNORDERED LIST</h2>
+    <style>
+        ul{list-style: none;}
+        ul li::before{content: '\2714\0020'}
+    </style>
+    <ul style="list-style-type: square; color: black;">
+        <li>Technical Skills</li>
+        <ul>
+            <li>HTML</li>
+            <li>Git</li>
+            <li>Vue</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>PHP</li>
+            <li>CSS</li>
+            
+        </ul>
+        <li>Soft Skills</li>
+        <li>Life Skills</li>
+        <ul>
+            <li>Cooking</li>
+            <li>Gaming</li>
+            <li>Swimming</li>
+        </ul>
+    </ul>
+
+    <!--ORDERED LIST-->
+    <h3>ORDERED LIST</h3>
+    <ol type="i">
+        <li>Technical Skills</li>
+        <ul>
+            <li>HTML</li>
+            <li>Git</li>
+            <li>Vue</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>PHP</li>
+            <li>CSS</li>
+            
+        </ul>
+        <li>Soft Skills</li>
+        <li>Life Skills</li>
+        <ul>
+            <li>Cooking</li>
+            <li>Gaming</li>
+            <li>Swimming</li>
+        </ul>
+    </ol>
+
+    <!--DESCRIPTION LIST-->
+    <h3>DESCRIPTION LIST</h3>
+
+    <dl>
+        <dt>About Myself</dt>
+        <dd>My name is Emmanuel Oyelakin.</dd>
+
+        <dt>My Hobbies</dt>
+        <dd>I love playing with code and playing games.</dd>
+    </dl><br>
+    <br>
+    <br>
+
+
+
+    <!--Tables-->
+
+
+
+
+    <table width="60%">
+        <caption>TutorialBrain Courses</caption>
+        <tr>
+            <th>BIG DATA</th>
+            <th>DIGITAL MARKETING</th>
+            <th>MAIN FRAME</th>
+        </tr>
+        <tr>
+            <td>Spark</td>
+            <td>SEO Analytics</td>
+            <td>COBOL</td>
+        </tr>
+        <tr>
+            <td>10677</td>
+            <td>456777</td>
+            <td>3456</td>
+        </tr>
+        <tr>
+            <td>19078</td>
+            <td>2345</td>
+            <td>908765</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>987</td>
+            <td>0236</td>
+        </tr>
+
+    </table>
+
+<!--COLSPAN and ROWSPAN-->
+<style>
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Company Name</th>
+        <td>Tutorial Brain</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Address:</th>
+        <td>Bangalore</td>
+    </tr>
+    <tr>
+        <td>Mysore</td>
+    </tr>
+    <tr>
+        <th>company Name</th>
+        <th colspan="2">Branches</th>
+    </tr>
+    <tr>
+        <td>TutorialBrain</td>
+        <td>Bangalore</td>
+        <td>Mysore</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
